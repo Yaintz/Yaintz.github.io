@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@font-face {
+	font-family:Futura;
+	src:url("font/FUTURAMEDIUM.TTF");
+}
+@font-face {
+	font-family:FuturaBold;
+	src:url("Font/Futura Condensed Extra Bold.otf");
+}
+/* CSS Document */
+.background {
+	width:101vw;
+	position:absolute;
+	right: 0vw;
+	z-index:-1;
+	top:0vw;
+	overflow: hidden;
+}
+.nav_bar {
+	position: fixed;
+	font-family: futura;
+	font-style: oblique;
+	font-style: bold;
+	color: #B0B0B0;
+	font-size: 2.3vw;
+	width: 28vw;
+	z-index:1;
+}
+.nav_bar_element {
+	font-weight: bold;
+	text-align:center;
+	position: absolute;
+	/* changing */
+	transition: color 200ms ease-in;
+	z-index:1;
+}
+.nav_bar_element:hover {
+	color: #e581eb;
+	transition: color 200ms ease-out;
+}
+.nav_bar_divider {
+	position: absolute;
+}
+.container {
+	position: absolute;
+}
+.logo {
+	width:30vw;
+	position:relative;
+	bottom:3vw;
+	z-index:2;
+}
+.EPKtext {
+	font-family:futura;
+	color:white;
+	text-align:left;
+	font-size:1.3vw;
+	width:28.3vw;
+}
+.shadow {
+	position:absolute;
+	z-index:0;
+	width:100vw;
+	left:-1vw;
+	top:-1vw;
+}
