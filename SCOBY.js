@@ -1,5 +1,5 @@
 function home() {
-	window.location.href="SCOBY.html";
+	window.location.href="index.html";
 }
 function shows() {
 	window.location.href="Shows.html";
