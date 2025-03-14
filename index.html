@@ -37,9 +37,9 @@
 </body>
 <script src="SCOBY.js"></script>
 	<script type="text/javascript">
-		const screenWidth = window.innerWidth;
+		const isMobile = navigator.userAgentData.mobile;
 		console.log("testing");
-		if (screenWidth  < 600) {
+		if (isMobile) {
 			console.log("test");
 			window.location.href = "MobileTest.html";
 		}
