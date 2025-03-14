@@ -10,3 +10,11 @@ function music() {
 function EPK() {
 	window.location.href="EPK.html";
 }
+function resizeAlert() {
+	let width = document.documentElement.clientWidth;
+	let height = document.documentElement.clientHeight;
+	if (width > height) {
+		alert("please rotate your screen!");
+	}
+}
+window.addEventListener("resize", resizeAlert);

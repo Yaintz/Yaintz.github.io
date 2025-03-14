@@ -4,14 +4,12 @@
 <meta charset="UTF-8">
 <title>SCOBY</title>
 	<link href="SCOBY.css" rel="stylesheet" type="text/css">
+	<script src="SCOBY.js"></script>
 </head>
-
-<body style="background-color:#000000">
+<body style="background-color:#000000" onResize="resizeAlert()">
 	<div class="container" style="width:70vw;left:14vw;top:-9vw">
 		<img src="images/scoby star transparent small.png" alt="scoby logo" class="logo" id="logo" style="width:100%">
 	</div>
-	<script type="text/javascript">
-	</script>
 	<img class="background" src="images/verticalhome.jpg" alt="background" style="height:100vh;object-fit:cover">
 </body>
 	<script type="text/javascript">
@@ -19,9 +17,8 @@
 		function isMobile() {
   			return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 		}
-		if (!isMobile()) {
+		if (isMobile()) {
 			window.location.href = "index.html";
 		}
-		screen.orientation.lock();
 	</script>
 </html>
