@@ -38,6 +38,7 @@
 .nav_bar_element:hover {
 	color: #e581eb;
 	transition: color 200ms ease-out;
+	cursor: pointer;
 }
 .nav_bar_divider {
 	position: absolute;
