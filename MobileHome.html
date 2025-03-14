@@ -17,16 +17,16 @@
 		</p>
 		<div class="navMenuOverlay" id="navMenuOverlay"></div>
 		<div class="navLink" id = "homeButton" style="top:45vw" onClick="home()">
-			// Home \\
+			//_Home_\\
 		</div>
-		<div class="navLink" id = "musicButton" style="top:57vw" onClick="home()">
-			// Music \\
+		<div class="navLink" id = "musicButton" style="top:57vw" onClick="music()">
+			//_Music_\\
 		</div>
-		<div class="navLink" id = "musicButton" style="top:69vw" onClick="home()">
-			// Shows \\
+		<div class="navLink" id = "showsButton" style="top:69vw" onClick="shows()">
+			//_Shows_\\
 		</div>
-		<div class="navLink" id = "musicButton" style="top:81vw" onClick="home()">
-			//  EPK  \\
+		<div class="navLink" id = "EPKButton" style="top:81vw" onClick="EPK()">
+			//_EPK_\\
 		</div>
 		
 	</div>
@@ -35,7 +35,7 @@
 		function isMobile() {
   			return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 		}
-		if (isMobile()) {
+		if (!isMobile()) {
 			window.location.href = "index.html";
 		}
 	</script>
