@@ -18,6 +18,7 @@ function resizeAlert() {
 		alert("please rotate your screen!");
 	}
 }
+
 function isMobile() {
   		return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 	}
@@ -26,3 +27,23 @@ var loadingScreen = document.querySelector(".loadingScreen");
 window.addEventListener('load', function() {
 	loadingScreen.style.display = 'none';
 })
+
+let menuOpen = false;
+function toggleMenu() {
+	if (!menuOpen) {
+		document.getElementById("navMenuOverlay").style.display = "block";
+		document.getElementById("homeButton").style.display = "block";
+		document.getElementById("musicButton").style.display = "block";
+		document.getElementById("showsButton").style.display = "block";
+		document.getElementById("EPKButton").style.display = "block";
+		menuOpen = true;
+	}
+	else {
+		document.getElementById("navMenuOverlay").style.display = "none";
+		document.getElementById("homeButton").style.display = "none";
+		document.getElementById("musicButton").style.display = "none";
+		document.getElementById("showsButton").style.display = "none";
+		document.getElementById("EPKButton").style.display = "none";
+		menuOpen = false;
+	}
+}

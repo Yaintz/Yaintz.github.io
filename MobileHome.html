@@ -7,17 +7,35 @@
 	<script src="SCOBY.js"></script>
 </head>
 <body style="background-color:#000000" onResize="resizeAlert()">
-	<div class="container" style="width:70vw;left:14vw;top:-9vw">
-		<img src="images/scoby star transparent small.png" alt="scoby logo" class="logo" id="logo" style="width:100%">
+	<div class="container" style="width:70vw;left:16vw;top:-9vw">
+		<img src="images/scoby star transparent small.png" alt="scoby logo" class="logo" id="logo" style="width:100%;z-index:6">
 	</div>
 	<img class="background" src="images/verticalhome.jpg" alt="background" style="height:100vh;object-fit:cover">
+	<div id="navMenu">
+		<p onClick="toggleMenu()" class="navButton">
+		=
+		</p>
+		<div class="navMenuOverlay" id="navMenuOverlay"></div>
+		<div class="navLink" id = "homeButton" style="top:45vw" onClick="home()">
+			// Home \\
+		</div>
+		<div class="navLink" id = "musicButton" style="top:57vw" onClick="home()">
+			// Music \\
+		</div>
+		<div class="navLink" id = "musicButton" style="top:69vw" onClick="home()">
+			// Shows \\
+		</div>
+		<div class="navLink" id = "musicButton" style="top:81vw" onClick="home()">
+			//  EPK  \\
+		</div>
+		
+	</div>
 </body>
 	<script type="text/javascript">
-		
 		function isMobile() {
   			return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 		}
-		if (!isMobile()) {
+		if (isMobile()) {
 			window.location.href = "index.html";
 		}
 	</script>
