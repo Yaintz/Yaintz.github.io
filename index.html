@@ -5,7 +5,7 @@
 <title>SCOBY</title>
 	<link href="SCOBY.css" rel="stylesheet" type="text/css">
 </head>
-<body style="background-color:#8A8A8A">
+<body style="background-color:#000000">
 	<div class="nav_bar">
 		<img src="images/gradient fill.png" alt="we look soooo good you are missing out" class="shadow">
 		<div class="nav_bar_element" id="shows" onClick="home()" style="color:white"> 
@@ -36,4 +36,12 @@
 	<img class="background" src="images/final website photo.png" alt="background">
 </body>
 <script src="SCOBY.js"></script>
+	<script type="text/javascript">
+		const screenWidth = window.innerWidth;
+		console.log("testing");
+		if (screenWidth  < 600) {
+			console.log("test");
+			window.location.href = "MobileTest.html";
+		}
+	</script>
 </html>
