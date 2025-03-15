@@ -36,6 +36,7 @@ function toggleMenu() {
 		document.getElementById("musicButton").style.display = "block";
 		document.getElementById("showsButton").style.display = "block";
 		document.getElementById("EPKButton").style.display = "block";
+		document.getElementById("menuButton").src = "images/xout.png";
 		menuOpen = true;
 	}
 	else {
@@ -44,6 +45,7 @@ function toggleMenu() {
 		document.getElementById("musicButton").style.display = "none";
 		document.getElementById("showsButton").style.display = "none";
 		document.getElementById("EPKButton").style.display = "none";
+		document.getElementById("menuButton").src = "images/menu.png";
 		menuOpen = false;
 	}
 }

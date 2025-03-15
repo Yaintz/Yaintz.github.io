@@ -84,12 +84,11 @@
 	width:28.3vw;
 }
 .navButton {
-	font-family: futura;
-	color: white;
-	font-size: 10vh;
 	position: absolute;
-	top: -10vh;
-	z-index:4;
+	top: 5vh;
+	left:5vw;
+	z-index:6;
+	width:10vw;
 }
 .navMenuOverlay {
 	position:fixed;
