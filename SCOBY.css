@@ -69,10 +69,10 @@
 .loadingScreen {
 	position: absolute;
 	z-index: 100;
-	width: 100%;
+	width: 101vw;
 	height: 101vh;
-	left:0vw;
-	top:0vh;
+	left:-1vw;
+	top:-1vh;
 	background-color: #000000;
 	display:flex;
 	align-items: center;
