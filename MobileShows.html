@@ -2,22 +2,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Music</title>
+<title>Shows</title>
 	<link href="SCOBY.css" rel="stylesheet" type="text/css">
 </head>
 <body style="background-color:#000000" onResize="resizeAlert()">
-		<div class="loadingScreen">
-	</div>
 	<div class="container" style="width:70vw;left:16vw;top:-9vw">
 		<img src="images/scoby star transparent small.png" alt="scoby logo" class="logo" id="logo" style="width:100%;z-index:6">
 	</div>
-	<img class="background" src="images/DSC00421.jpg" alt="background" style="height:100vh;object-fit:cover;position:fixed">
-	<div class="container" style="left:10vw;top:40vw;width:80vw;height:20vh">
-		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3PuZ75jIANnXFawa0yZiFA?utm_source=generator" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+	<img class="background" src="images/river_shows.jpg" alt="background" style="height:101vh;object-fit:cover;position:fixed">
+	<div class="container" style="width:90vw;top:23vh;align-content:center;">
+		<p class="EPKtext" style="font-size:7vw; text-align:center;width:100%">
+			Besty's Barn; Boone NC, <br>Sunday March 25
+			<br><br>Besty's Barn; Boone NC, <br>Sunday March 25
+			
+		</p>
 	</div>
-	<div class="container" style="left:10vw;top:90vw;width:80vw;height:20vh;">
-		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4Od8Xr0QrNiue20mmUCf8P?utm_source=generator" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-	</div>
+
 	<div id="navMenu">
 		<div class="navMenuOverlay" id="navMenuOverlay"></div>
 		<div class="navLink" id = "homeButton" style="top:45vw" onClick="home()">
@@ -40,7 +40,7 @@
   			return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 		}
 		if (!isMobile()) {
-			window.location.href = "Music.html";
+			window.location.href = "Shows.html";
 		}
 	</script>
 	<script src="SCOBY.js"></script>
