@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EPK</title>
+	<link href="SCOBY.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-color:#000000" onResize="resizeAlert()">
+	<div class="container" style="width:70vw;left:16vw;top:-9vw">
+		<img src="images/scoby star transparent small.png" alt="scoby logo" class="logo" id="logo" style="width:100%;z-index:6">
+	</div>
+	<img class="background" src="images/ghoulfest blur.png" alt="background" style="height:101vh;object-fit:cover;position:fixed">
+	<div id="navMenu">
+		<div class="container" style="position:absolute;top:34vw;width:100%;right:0vw;">
+		<p style="font-family:FuturaBold;color:white;font-size:7vw;opacity:1;z-index:1;letter-spacing:-1px;line-height:1;text-align:center;">
+			INDIE ALTERNATIVE ROCK BAND <br>FROM WINSTON-SALEM, NC
+		</p>
+		</div>
+	<div class="container" style="width:86vw;left:6vw;top:61vw">
+		<img src="images/KFox Cropped.png" alt="img" style="width:100%">
+	</div>
+	<div class="container" style="width:50vw;left:5vw;top:105vw;height:45vw;overflow:hidden">
+		<img src="images/DSC06369.jpg" alt="img" style="width:83%;position:inherit;bottom:-6vw">
+	</div>
+	<div class="container" style="width:50vw;left:50vw;top:105vw;height:45vw;overflow:hidden">
+		<img src="images/DSC05524.JPG" alt="img" style="width:83%;position:inherit;bottom:-3vw">
+	</div>
+		<div class="container" style="top:19vw;left:5vw;top:150vw;z-index:2;width:90%">
+		<p class="EPKtext" style="font-size:3vw;width:100%">
+		  SCOBY is an indie/alternative rock outfit from
+Winston-Salem, NC. While shifting band members, the homegrown group recorded their first
+EP "That Will Be The End" in their drummer
+Doug's basement. It couples a DIY indie ethic
+with sentimental themes of grief, growth, and
+coming into identity. It functions as a diary of
+young adulthood, featuring jittery hooks and
+composition that is "uninhibited and confidently playful (CLTure Magazine). Since its release,
+SCOBY has made waves touring across the Car-
+olinas, being compared to acts such as Soccer
+Mommy, Snail Mail, and Wednesday. Their upcoming LP features singles
+"You Scare Me Like
+A Movie" and "PT Cruiser" </p>
+	</div>
+
+		<div class="navMenuOverlay" id="navMenuOverlay"></div>
+		<div class="navLink" id = "homeButton" style="top:45vw" onClick="home()">
+			//_Home_\\
+		</div>
+		<div class="navLink" id = "musicButton" style="top:57vw" onClick="music()">
+			//_Music_\\
+		</div>
+		<div class="navLink" id = "showsButton" style="top:69vw" onClick="shows()">
+			//_Shows_\\
+		</div>
+		<div class="navLink" id = "EPKButton" style="top:81vw" onClick="EPK()">
+			//_EPK_\\
+		</div>
+		<img src="images/menu.png" alt="menu" class="navButton" id="menuButton" onClick="toggleMenu()">
+	</div>
+</body>
+	<script type="text/javascript">
+		function isMobile() {
+  			return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+		}
+		if (isMobile()) {
+			window.location.href = "EPK.html";
+		}
+	</script>
+	<script src="SCOBY.js"></script>
+</html>

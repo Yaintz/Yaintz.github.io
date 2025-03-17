@@ -10,7 +10,7 @@
 		<img src="images/scoby star transparent small.png" alt="scoby logo" class="logo" id="logo" style="width:100%;z-index:6">
 	</div>
 	<img class="background" src="images/river_shows.jpg" alt="background" style="height:101vh;object-fit:cover;position:fixed">
-	<div class="container" style="width:90vw;top:23vh;align-content:center;">
+	<div class="container" style="width:100%;left:0vw;top:26vh;align-content:center;">
 		<p class="EPKtext" style="font-size:7vw; text-align:center;width:100%">
 			Besty's Barn; Boone NC, <br>Sunday March 25
 			<br><br>The Den; Winston NC, <br>Saturday April 5
@@ -40,7 +40,7 @@
 		function isMobile() {
   			return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 		}
-		if (!isMobile()) {
+		if (isMobile()) {
 			window.location.href = "Shows.html";
 		}
 	</script>
