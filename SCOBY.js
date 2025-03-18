@@ -1,6 +1,9 @@
 function home() {
 	window.location.href="index.html";
 }
+function insta() {
+	window.location.href="https://www.instagram.com/scobytheband/";
+}
 function shows() {
 	window.location.href="Shows.html";
 }
