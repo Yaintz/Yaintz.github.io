@@ -1,6 +1,15 @@
 function home() {
 	window.location.href="index.html";
 }
+function mail() {
+	window.location.href="mailto:scobytheband@gmail.com";
+}
+function spotify() {
+	window.location.href="https://open.spotify.com/artist/0Y9QWqEuEg8xfieBlQTkmf";
+}
+function iTunes() {
+	window.location.href="https://music.apple.com/us/artist/scoby/1678791236?itscg=30200&itsct=music_box_link&ls=1&app=music&mttnsubad=1678791236";
+}
 function insta() {
 	window.location.href="https://www.instagram.com/scobytheband/";
 }
