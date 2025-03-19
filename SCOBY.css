@@ -33,7 +33,7 @@
 	position: absolute;
 	/* changing */
 	transition: color 200ms ease-in;
-	z-index:1;
+	z-index:7;
 }
 .nav_bar_element:hover {
 	color: #e581eb;
@@ -48,6 +48,7 @@
 }
 .logo {
 	width:30vw;
+	pointer-events: none;
 	position:relative;
 	bottom:3vw;
 	z-index:2;
