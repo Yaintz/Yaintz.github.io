@@ -14,7 +14,7 @@ function insta() {
 	window.location.href="https://www.instagram.com/scobytheband/";
 }
 function shows() {
-	window.location.href="Shows.html";
+	window.location.href="https://bnds.us/rmo867";
 }
 function music() {
 	window.location.href="Music.html";
